@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    height: 90vh;
+}
+
+.counter{
+    box-sizing: border-box;
+    background: transparent;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 50%;
+    margin-left: -50px;
+    bottom: 0px;
+    font-size: 35px;
+    text-align: center;
+    line-height: 100px;
+}
+
+div{
+    box-sizing: border-box;
+    border: 1px solid green;
+    background: green;
+    height: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+
+.vehicle{
+    width: 10px;
+    transition: left 0.3s linear;
+}
+
+.content{
+    position: relative;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
